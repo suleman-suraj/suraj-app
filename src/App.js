@@ -6,7 +6,7 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <section style={{backgroundImage: "url(./images/suraj.jpeg)"}}>
+    <section>
       <>
       <NavBar />
       <Header/>

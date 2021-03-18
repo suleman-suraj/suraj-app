@@ -1,8 +1,24 @@
+body{
+  margin:0;
+  padding: 0;
+}
 nav {
   display: flex;
   color: white;
   /* background-color: yellowgreen; */
   justify-content: space-between;
+  border-bottom: 1px solid white;
+  position: sticky;
+  top:0;
+  background-color: slateblue;
+}
+nav ul{
+  display: flex;
+
+}
+nav ul li{
+  list-style: none;
+  margin: 15px;
 }
  
 header {
@@ -41,9 +57,11 @@ section {
   /* filter: blur(8px); */
   /* -webkit-filter: blur(8px); */
   height: 50%;
-  background-position: auto; 
+  /* background-position: auto; 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: slateblue;
+  padding: 0 50px;
 }
   footer {
     display: grid;
